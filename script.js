@@ -1,5 +1,4 @@
 window.onload = function () {
-  // Comments added on this line 2, as part of learning how to use GitHub.
 
   var score = 0;
   var appendScore = document.getElementById("score");
