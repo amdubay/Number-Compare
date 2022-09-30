@@ -50,6 +50,9 @@ buttonNext.onclick = function(){runTime()}
 		//appendRight.innerHTML = quest
 		left = getRandomInt(1,100);
 		right = getRandomInt(1,100);
+		while (left == right) {
+			right = getRandomInt(1,100);
+		  }
 		appendLeft.innerHTML = left;
 		appendRight.innerHTML = right;
 		appendScore.innerHTML = score;
@@ -88,15 +91,6 @@ buttonNext.onclick = function(){runTime()}
 
 
 	}
-
-
-
-	
-	
-		
-
-
-
 
   
 
