@@ -1,0 +1,47 @@
+body {
+background:#ffa600;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+height:100%;
+}
+
+.wrapper {
+width: 800px;
+margin: 30px auto;
+color:black;
+text-align:center;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 2.6em;
+  text-transform: uppercase;
+
+}
+
+#seconds, #tens{
+  font-size:2em;
+}
+
+button {
+background: lightgrey;
+color:black;
+font-weight: bold;
+text-decoration:none;
+border-radius: 5px;
+border:none;
+box-shadow: 2px 2px gray;
+
+font-size:1.2em;
+padding:18px 10px;
+width:180px;
+margin: 10px;
+ 
+}
+
+
+
+
+
+
+
