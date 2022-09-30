@@ -1,24 +1,24 @@
 window.onload = function () {
 
-  var score = 0;
-  var appendScore = document.getElementById("score");
+	let score = 0;
+	let appendScore = document.getElementById("score");
 
-  var corr = 0;
-  var appendCorr = document.getElementById("corr");
+	let corr = 0;
+	let appendCorr = document.getElementById("corr");
 
-  var wron = 0;
-  var appendWron = document.getElementById("wron");
+	let wron = 0;
+	let appendWron = document.getElementById("wron");
 
-  var question = "greator";
-  var appendQuestion = document.getElementById("question");
-  var buttonLeft = document.getElementById('button-left');
-  var buttonRight = document.getElementById('button-right');
-  var buttonNext = document.getElementById('button-next');
-  var appendLeft = document.getElementById("left")
-  var appendRight = document.getElementById("right")
-  var quest = 0
-  var left = 0
-  var right = 0
+	let question = "greator";
+	let appendQuestion = document.getElementById("question");
+	let buttonLeft = document.getElementById('button-left');
+	let buttonRight = document.getElementById('button-right');
+	let buttonNext = document.getElementById('button-next');
+	let appendLeft = document.getElementById("left")
+	let appendRight = document.getElementById("right")
+	let quest = 0
+	let left = 0
+	let right = 0
 
   selectQuestion();
    function selectQuestion() {
@@ -27,7 +27,7 @@ window.onload = function () {
 	question = "greater"
 	}
 	else {
-	question = "lessor"
+	question = "less"
 	}
 	appendQuestion.innerHTML = question
 
