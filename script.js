@@ -19,6 +19,7 @@ window.onload = function () {
 	let quest = 0
 	let left = 0
 	let right = 0
+	runTime()
 
   selectQuestion();
    function selectQuestion() {
@@ -42,7 +43,7 @@ window.onload = function () {
 }
     
 
-buttonNext.onclick = function(){runTime()}
+// buttonNext.onclick = function(){runTime()}
 
 	function runTime() {
 
