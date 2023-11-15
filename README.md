@@ -11,5 +11,3 @@ Additionally, the app keeps track of right and wrong answers, all the while, kee
 She has now outgrown this app, because she understands the greater than/less than concept, but suprisingly, she still enjoys 'playing'.
 
 Although it won't be part of this repository, I intend to make additional projects to aid in her schooling.
-
-Test Resync.
